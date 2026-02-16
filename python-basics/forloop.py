@@ -14,3 +14,11 @@ for x in range(0,360,30):
 
 for i in range(10,0,-1):
      print(i)
+
+for x in range (0,360,30):
+     print(x)
+
+for x in range(-180,180,30):
+     print(f"cos({x}) = {math.cos(x)}")
+
+print("|")
