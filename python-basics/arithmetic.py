@@ -10,7 +10,7 @@ product_numbers = f_number * s_number
 quotient_numbers = f_number / s_number
 
 
-print(f"The sum of the numbers %d  "% sum_numbers)
+print(f"The sum of the numbers %d "% sum_numbers)
 print(f"The quotient of the numbers %0.2f "%quotient_numbers)
 
 #modulus - remainder
@@ -21,4 +21,4 @@ for x in range(0,21):
      if( x%2 ==1 ):
            print(f"{x} is an odd number" )
      elif (x%2 == 0):
-           print(x)
+           print(f"{x} is an even number" )
