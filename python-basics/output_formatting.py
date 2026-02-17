@@ -12,4 +12,4 @@ favorite_team = "Arsenal"
 
 height = 1.87 #Height in centimeters
 
-print(f"My name is {name} and I weigh {weight} kg")
+print(f"My name is {name} and I am {age} years old and I am {height} cm tall and my favorite team is {favorite_team}")

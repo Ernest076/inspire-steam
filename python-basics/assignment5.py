@@ -10,6 +10,4 @@ if salary < 50000:
 
 print(f"Gross salary = {salary}")
 print(f"Net salary = {net_salary}")
-print(f"Tax = {tax}")  
-
-import math
+print(f"Tax = {tax}")

@@ -56,5 +56,5 @@ elif d == 0:
 else:
     real_part = -b / (2*a)
     imaginary_part = math.sqrt(-d) / (2*a)
-    print(f"The roots are complex: {real_part} + {imaginary_part}i and {real_part} - {imaginary_part}i")
+    print(f"Complex roots:", real_part, "+", imaginary_part, "i and", real_part, "-", imaginary_part, "i")
 
