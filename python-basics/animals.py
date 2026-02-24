@@ -19,7 +19,8 @@ class Animal():
 
 class Cat(Animal):
     def __init__(self,colour,height,breed):
-        super().__init__(self,species,weight,food)
+        super().__init__(self, species, weight,food)
+        self.colour = colour
         self.height = height
         self.breed = breed
 
