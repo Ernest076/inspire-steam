@@ -17,9 +17,9 @@ def main():
     # Fly in a square pattern
     for i in range(4):
         print(f"Flying side {i+1}...")
-        drone.move_forward(5)   # move forward 5 units
+        drone.move_forward(50)   # move forward 50 units
         time.sleep(2)
-        drone.rotate(90)   # rotate 90 degrees
+        drone.rotate(360)   # rotate 360 degrees
         time.sleep(2)
 
     # Land
