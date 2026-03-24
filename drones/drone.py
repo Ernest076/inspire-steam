@@ -1,20 +1,14 @@
 from pysimverse import Drone
+
 import time
 
-# Create an instance of drone
 drone = Drone()
 drone.connect()
 
-drone.take_off()
-# distance is in cm
+drone.take_off(5)
+# distance in cm
+drone.set_speed(1100)
+drone.move_forward(300)
 
-drone.move_forward(280)
-time.sleep(2)
-drone.move_backward(200)
-time.sleep(2)
-drone.move_left(50)
-time.sleep(2)
-drone.move_right(70)
-time.sleep(2)
-
+drone.move_right(520)
 drone.land()
